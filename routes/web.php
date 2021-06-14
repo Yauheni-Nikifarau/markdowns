@@ -48,3 +48,23 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('register');
 });
+
+Route::get('/profile', function () {
+    return view('profile_me');
+});
+
+Route::get('/profile/orders', function () {
+    return view('profile_orders');
+});
+
+Route::get('/profile/order', function () {
+    return view('profile_order');
+});
+
+Route::get('/profile/messages', function () {
+    return view('profile_messages');
+});
+
+Route::get('/profile/message', function () {
+    return view('profile_message');
+});
